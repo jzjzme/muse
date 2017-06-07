@@ -1,0 +1,22 @@
+$balanced: #3B5998;
+$energized: #0DB4B9;
+$assertive: #F2A1A1;
+$royal: #E76D89;
+$ionicons-font-path: "../lib/ionic/fonts" !default;
+@import "../www/lib/ionic/scss";
+.top-container {
+	height: calc(100% - 96px);
+	overflow: scroll;
+}
+
+.bottom-form {
+	position: absolute;
+	bottom: 0px;
+	display: block;
+	width: 100%;
+	background-color: white;
+	button {
+		margin: 0px !important;
+	}
+	
+}
